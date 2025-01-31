@@ -9,11 +9,27 @@
     <!-- daisyUI -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Montagu+Slab:opsz,wght@16..144,100..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Sora:wght@100..800&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Montagu+Slab:opsz,wght@16..144,100..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Sora:wght@100..800&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+        .sora {
+  font-family: "Sora", serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+}
+.adlam-display-regular {
+  font-family: "ADLaM Display", serif;
+  font-weight: 400; 
+  font-style: normal;
+}
+
+   </style>
 
 </head>
 <body>
    <header>
-    <nav class="w-11/12 mx-auto">
+    <nav class="w-11/12 mx-auto sora">
          <div class="navbar bg-base-100">
             <div class=" navbar-start gap-3">
               <img src="images/logo-header.png" alt="">
@@ -88,7 +104,27 @@
          
     </nav>
    </header>
-   <main></main>
+   <main>
+<!-- banner -->
+ <section class="w-11/12 mx-auto mt-15" >
+  <div class="flex flex-col md:flex-row  ">
+      <div class="-w-11/12 md:w-3/5 space-y-4 "> 
+      <h1 class="adlam-display-regular text-5xl">Pamper Your Pet,<br>
+         Because They Deserve <br>
+         the Bes</h1>
+         <p class="sora text-sm">Discover a world of treats, toys, and essentials handpicked, <br>for
+           your furry friends. Shop now and make tails wag with joy!</p>
+           <button class="btn btn-warning">Warning</button>
+    </div>
+    <div>
+      <img src="images/cat-big.png" alt="">
+    </div>
+
+  </div>
+
+ </section>
+
+   </main>
    <footer></footer>
 </body>
 </html>
